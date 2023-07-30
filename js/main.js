@@ -35,10 +35,3 @@ notesContainer.addEventListener("click", function(e) {
         })
     }
 })
-
-document.addEventListener("keypress", event => {
-    if(event.key = 13) {
-        document.execCommand("insertLineBreak");
-        event.preventDefault();
-    }
-})
