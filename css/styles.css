@@ -10,7 +10,7 @@
 .container  {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    background: linear-gradient(135deg, #040d2c, #462a8b, #8d05d6);
     color: #fff;
     padding-top: 4%;
     padding-left: 10%;
@@ -28,7 +28,7 @@
 }
 
 .container button {
-    border: 1px solid purple;
+    border: 0;
     outline: none;
     display: flex;
     align-items: center;
@@ -57,6 +57,7 @@
     margin: 20px 0;
     outline: none;
     border-radius: 5px;
+    animation: opacity .5s;
 }
 
 .input-box img {
@@ -65,4 +66,14 @@
     right: 15px;
     width: 25px;
     cursor: pointer;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
